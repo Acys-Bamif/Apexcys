@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Apexcys Construction Agency</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://kit.fontawesome.com/0c60fc5e1d.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+<body>
+
+<!--top collapsible navigation on small screen and full on large-->
+	<nav class="nav">
+
+		<input class="menu-btn" type="checkbox" id="menu-btn" />
+		<label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+		
+		<div class="menu">
+			<ul>
+				<li><a class="link" href="#">HOME</a></li>
+				<li><a class="link" href="#about">ABOUT</a></li>
+				<li><a class="link" href="#portfolio">PORTFOLIO</a></li>
+				<li><a class="link" onclick="openModal()">BOOK A CALL</a></li>
+			</ul>
+		</div>
+		
+	</nav>
+	
+	<div class="toTop"><a href="#">∆</a></div>
+
+
+<!--header section-->
+	<header class="header-main bg-ddf">
+		
+	<img class="logo" src="images/logo.png" alt="apexcys logo">
+
+	<div class="hero">
+		<div>
+			<h1 class="sub-head">Hey! We are<big> Apexcys.</big></h1>
+		</div>
+	</div>
+
+	<div id="about" class="header">
+		<div>
+			<img src="images/construction.png" alt="construction illustration">
+		</div>
+		
+		<div>
+			<h2 class="sub-head">Best Construction Business Website Development Agency.</h2>
+			<p class="block">Here at <big>Apexcys Construction Agency</big>, <b>We don't just build websites for construction brands, We absolutely help build clients trust</b>. We are approachable problem solvers that value honesty and clarity. We are friendly, and all about a collaborative process. we always view a website as an integral part of an overall brand strategy.</p>
+			
+			<div class="icons">
+				<a href="mailto:apexcys@gmail.com"><i class="fa fa-envelope-o"></i><small><small>apexcys@gmail.com</small></a>
+				<a href="https://wa.me/+27732795398"><i class="fa fa-whatsapp"></i><small>+27&nbsp;73&nbsp;279&nbsp;5398</small></a>
+				<a href="https://www.facebook.com/profile.php?id=100083289021591"><i class="fa fa-facebook"></i><small>Apexcys&nbsp;Construction&nbsp;Agency</small></a>
+			</div>
+			
+			<a class="button" onclick="openModal()">Book A Call With Us<br> <small>For A Zero Obligation Quote</small></a>
+		</div>
+	
+	</div>
+		
+</header>
+
+<!--slide down indicator animation-->
+	<div class="slides">
+		<div class="slideRight"> <p class="right">slide down ↔</p></div>
+		<div class="slideLeft"> <p class="left">slide down ↔</p></div>
+	</div>
+	
+<!--portfolio section-->
+	<section id="portfolio">
+	
+		<div>
+			<h2 class="sub-head"><hr>What We've Done</h2>
+			<p class="block slide-fl">Frequently your website is the first impression your customers will get, so make sure it’s a good one. Below are some Brands we've worked with in the past, They are all  APEX at their niches, wanna be at the APEX too? send us an <a class="gray" href="mailto:apexcys@gmail.com">email</a> now without procrastination!<br>
+			Interested in seeing more? Check out our <a class="gray" href="https://www.facebook.com/profile.php?id=100083289021591">facebook page</a>.<small>Don't forget to like, follow and share.</small></p>
+							
+		<a class="button  btn-dark" onclick="openModal()">Book A Call With Us<br> <small>For A Zero Obligation Quote</small></a>
+		</div>
+		
+		<div>
+			<img class="img" src="images/template0.jpg"  alt="website template">
+		</div>
+
+
+	</section>
+
+	<section id="brands">
+		<div><img src="images/brands.jpg" alt="brands we've worked with"></div>
+	</section>
+
+<!--qualities we possess section-->
+<section id="qualities">
+	
+	<h2 class="sub-head"><hr>How We Are Different</h2>
+	
+	<div class="qualities-div">
+		
+		<div>
+			<div class="icon-top">
+				<i class="fa fa-rocket"></i>
+			</div>
+			<div>
+				<h3>SEO Fast</h3>
+				<p>Fast load time, lag free interaction, SEO friendly: our highest priority.</p>
+				<div class="icon-bottom">
+					<i class="fa fa-rocket"></i>
+				</div>
+			</div>
+		</div>
+		
+		<div>
+			<div class="icon-top">
+				<i class="fa fa-th-large"></i>
+			</div>
+			<div>
+				<h3>Responsive</h3>
+				<p>Our layouts will work perfectly on any browsing device, large, medium or small.</p>
+				<div class="icon-bottom">
+					<i class="fa fa-th-large"></i>
+				</div>
+			</div>
+		</div>
+		
+		<div>
+			<div class="icon-top">
+				<i class="fa fa-thumbs-o-up"></i>
+			</div>
+			<div>
+				<h3>Intuitive</h3>
+				<p>Strong preference for easy to use, intuitive User Interaction and experience (UX/UI).</p>
+				<div class="icon-bottom">
+					<i class="fa fa-thumbs-o-up"></i>
+				</div>
+			</div>
+		</div>
+		
+		<div>
+			<div class="icon-top">
+				<i class="fa fa-heartbeat"></i>
+			</div>
+			<div>
+				<h3>Lively</h3>
+				<p>Websites don't have to be dull, We make clean pages with transitions and animations.</p>
+				<div class="icon-bottom">
+					<i class="fa fa-heartbeat"></i>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+</section>
+
+<!--project view modal-->
+<div id="modal">
+	<!-- <div> -->
+		<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScYHWj-5LOg2bx5GHIIFdtetg4Sog5UzZwBWdvkLCJv8baAJQ/viewform?embedded=true" width="80vw" height="80vh" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+		<button class="closeButton" onclick="hideModal()">×</button>
+	<!-- </div> -->
+</div>
+
+<section id="boa">
+	<h2 class="sub-head"><hr>Best Of All?!</h2>
+	<div>
+		<p class="block">We are the <big>ONLY Agency</big> in the construction space that offer <b>100% money back guarantee.</b> <br> <small>No Risk On You. All the Risk On Us.</small></p>
+		<p>Are you ready to be <big>THE APEX</big> of Your Niche</p>
+		<a class="button btn-dark" onclick="openModal()">Book A Call With Us<br> <small>For A Zero Obligation Quote</small></a>
+	</div>
+	<div>
+		<img class="img" src="images/template1.jpg"  alt=""website template>
+	</div>
+</section>
+
+<!--site footer-->
+	<footer>
+
+		<div>
+			<a href="#">HOME</a>.
+			<a href="#about">ABOUT</a>.
+			<a href="#portfolio">PORTFOLIO</a>.
+			<a class="link" onclick="openModal()">BOOK A CALL</a>
+			<p>©2024 Apexcys Construction Agency LLC.</p>
+		</div>
+	</footer>
+	
+<!--external script link-->
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript">
+	
+	var _y;
+
+(function () {
+	"use strict";
+	
+// define variables
+	var h2s = document.querySelectorAll(".project-div");
+	
+// check if an element is in viewport
+	function isElementInViewport(el) {
+		var rect = el.getBoundingClientRect();
+		return (
+			rect.top >= 0 &&
+			rect.left >= 0 &&
+			rect.bottom <=
+			(window.innerHeight || document.documentElement.clientHeight) &&
+			rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+		);
+	}
+	
+//initialize the default look with js so that it does not affect the look when script is disabled
+	for (var i = 0; i < h2s.length; i++) {
+		h2s[i].classList.add("animate-t-card");
+	}
+		
+//call back function codes
+	function callbackFunc() {
+		for (var i = 0; i < h2s.length; i++) {
+			if (isElementInViewport(h2s[i])) {
+				h2s[i].classList.add("t-card-in-view");
+			}
+			else {
+				h2s[i].classList.remove("t-card-in-view");
+			}
+		}
+	}
+	
+	// listen for events
+	window.addEventListener("load", callbackFunc);
+	window.addEventListener("resize", callbackFunc);
+	window.addEventListener("scroll", callbackFunc);
+})();
+
+	</script>
+</body>
+</html>
